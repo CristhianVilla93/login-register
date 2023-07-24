@@ -1,8 +1,8 @@
 <?php
-// inicio el uso de las variables de sesion
+
 session_start();
 
-// 
+
 if (!isset($_SESSION["usuario"])) {
     require("nonauthorized.php");
     die();
