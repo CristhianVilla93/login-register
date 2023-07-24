@@ -28,6 +28,13 @@ body{
     gap: 20px;
 }
 
+.cuadrologin1 > h1{
+    font-size:18px ;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+}
+
 .cuadrologin2{
     padding: 25px 0px;
     display: flex;
@@ -44,6 +51,9 @@ body{
 .correo > input {
     width: 340px;
     height: 48px;
+    font-size:16px ;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
     padding: 0px 0px 0px 35px;
     border-radius: 10px;
     border: 1px solid #BDBDBD;
@@ -68,6 +78,9 @@ body{
 .contrasena > input {
     width: 340px;
     height: 48px;
+    font-size:16px ;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
     padding: 0px 0px 0px 35px;
     border-radius: 10px;
     border: 1px solid #BDBDBD;
@@ -90,6 +103,7 @@ body{
     background-color: #2F80ED;
     color: #FFFFFF;
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     border-radius: 10px;
     border: none;
@@ -102,6 +116,13 @@ body{
     align-items: center;
 }
 
+.cuadrologin3 > p{
+    font-size:14px ;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #828282;
+}
+
 .iconos{
     display: flex;
     gap: 15px;
@@ -111,6 +132,7 @@ body{
 @media screen and (min-width: 750px) {
 
     .contenedorlogin{
+        height: 550px;
         border: 1px solid #BDBDBD;
         padding: 4%;
      
