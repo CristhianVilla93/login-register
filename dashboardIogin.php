@@ -42,7 +42,7 @@ if (!isset($_SESSION["usuario"])) {
                             <li><a href="#"><img src="imagen/people-fill.svg" alt=""> <span>Group Chat</span></a></li>
                         </ul>
                         <hr>
-                        <a href="logout.php"><img src="imagen/input.svg" alt=""> <span>Log out</span></a>
+                        <a href="logout.php"><img src="imagen/input.svg" alt=""> <span>Logout</span></a>
                     </div>
                 </li>
             </ul>

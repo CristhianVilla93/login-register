@@ -221,6 +221,10 @@ input{
 
 #cuadrodesple > ul >li > a > span{
     display: block;
+    font-size:12px ;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #4F4F4F;
 }
 
 #cuadrodesple > ul >li > a{
@@ -231,6 +235,9 @@ input{
 
 #cuadrodesple > a > span{
     display: block;
+    font-size:12px ;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
 }
 
 #cuadrodesple > a{

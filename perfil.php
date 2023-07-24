@@ -39,7 +39,7 @@ if (!isset($_SESSION["usuario"])) {
                         <li><img src="imagen/people-fill.svg" alt=""><a href="#"><span>Group Chat</span></a></li>
                     </ul>
                     <hr>
-                    <a href="logout.php"><img src="imagen/input.svg" alt=""><span>Log out</span></a>
+                    <a href="logout.php"><img src="imagen/input.svg" alt=""><span>Logout</span></a>
                 </div>
             </li>
         </ul>
@@ -64,16 +64,16 @@ if (!isset($_SESSION["usuario"])) {
                 <div class="datos1">
                     <p>PHOTO <img src="<?php echo $_SESSION["usuario"]["ruta_img"] ?>" alt="Perfil"></p>
                     <hr>
-                    <p>NAME <span><?php echo $_SESSION["usuario"]["name"] ?></span></p>
+                    <p class="otro-dato">NAME <span><?php echo $_SESSION["usuario"]["name"] ?></span></p>
                     <hr>
-                    <p>BIO <span><?php echo $_SESSION["usuario"]["bio"] ?></span></p>
+                    <p class="otro-dato">BIO <span><?php echo $_SESSION["usuario"]["bio"] ?></span></p>
                     <hr>
-                    <p>PHONE <span><?php echo $_SESSION["usuario"]["phone"] ?></span></p>
+                    <p class="otro-dato">PHONE <span><?php echo $_SESSION["usuario"]["phone"] ?></span></p>
                     <hr>
-                    <p>EMAIL <span><?php echo $_SESSION["usuario"]["email"] ?></span></p>
+                    <p class="otro-dato">EMAIL <span><?php echo $_SESSION["usuario"]["email"] ?></span></p>
                     <hr>
-                    <p>PASSWORD <span>************</span></p>
-                    <hr>
+                    <p class="otro-dato">PASSWORD <span>************</span></p>
+                    
                 </div>
 
             </div>
