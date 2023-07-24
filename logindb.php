@@ -4,12 +4,12 @@ if  ($_SERVER["REQUEST_METHOD"] === "POST") {
     
     require("connection.php");
     
-    // Guardo datos en variables
+
     
     $email = $_POST["email"];
     $pass = $_POST["password"];
     
-    // preparar el query
+
     $query = "SELECT * FROM usuarios WHERE email='$email' ";
 
     $resultado = $mysqli-> query($query);
