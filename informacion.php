@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"]=== "POST") {
    
 
     $query = "UPDATE  usuarios SET name ='$nombre', bio='$biografia', phone='$telefono', email='$correo', contrase='$hash', ruta_img='$rutaCompleta'  WHERE id =$idUsuario";
-    // VALUES ('$nombre','$biografia','$telefono',/*'$correo','$contrasena',*/'$rutaCompleta')";
+    
 
     $resultado = $mysqli->query($query);
 
