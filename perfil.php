@@ -20,6 +20,9 @@ if (!isset($_SESSION["usuario"])) {
     <link rel="stylesheet" href="dashboardIogin.css">
     <script src="cuadro.js" defer></script>
     <link rel="stylesheet" href="perfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 
@@ -28,8 +31,8 @@ if (!isset($_SESSION["usuario"])) {
         <ul id="barranav">
             <li><img class="loguito" src="imagen/devchallenges.svg" alt=""></li>
             <li>
-                
-            <p class="logoconimg"><img class="imgperfil" src="<?php echo $_SESSION["usuario"]["ruta_img"] ?>"> <span><?php echo $_SESSION["usuario"]["name"] ?><img src="imagen/caret-down-fill.svg" alt=""></span></p>
+
+                <p class="logoconimg"><img class="imgperfil" src="<?php echo $_SESSION["usuario"]["ruta_img"] ?>"> <span><?php echo $_SESSION["usuario"]["name"] ?><img src="imagen/caret-down-fill.svg" alt=""></span></p>
                 <div id="cuadrodesple">
                     <ul>
                         <li><img src="imagen/person-circle.svg" alt=""><a href="perfil.php"><span>My profile</span></a></li>

@@ -19,6 +19,9 @@ if (!isset($_SESSION["usuario"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dashboardIogin.css">
     <script src="cuadro.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 
@@ -30,9 +33,9 @@ if (!isset($_SESSION["usuario"])) {
             <ul>
                 <li><img class="loguito" src="imagen/devchallenges.svg" alt=""></li>
                 <li>
-                    
+
                     <p class="logoconimg"><img class="imgperfil" src="<?php echo $_SESSION["usuario"]["ruta_img"] ?>"> <span><?php echo $_SESSION["usuario"]["name"] ?><img src="imagen/caret-down-fill.svg" alt=""></span></p>
-                    
+
                     <div id="cuadrodesple">
                         <ul>
                             <li><a href="perfil.php"><img src="imagen/person-circle.svg" alt=""> <span>My profile</span></a></li>
@@ -64,7 +67,7 @@ if (!isset($_SESSION["usuario"])) {
                     </div>
                     <p>CHANGE PHOTO</p>
                 </div>
-                
+
                 <br>
                 <label for="name">Name</label> <br>
                 <input type="text" name="nombre" id="name" placeholder="Enter your name..">
