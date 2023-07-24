@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    height: 8vh;
+    padding: 20px;
+}
+
+.loguito{
+    width: 130px;
+    height: 18px;
+}
+
+.imgperfil{
+    width: 32px;
+    height: 36.69px;
+    border-radius: 8px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav > ul{
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+nav > ul > li:last-child{
+    cursor: pointer;
+    position: relative;
+}
+
+#cuadrodesple{
+    width: 40px;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    transform: scale(0);
+    transition: 0.4s all;
+
+
+}
+
+hr{
+    width: 100%;
+}
+
+#cuadrodesple > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.logoconimg > span{
+    display: none;
+}
+
+#cuadrodesple > ul >li > a > span{
+    display: none;
+}
+
+#cuadrodesple > a > span{
+    display: none;
+}
+
+#cuadrodesple.active{
+    transform: scale(1);
+}
+
+#volver > a{
+    color:#2D9CDB ;
+}
+
+#fotos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#fotos > p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#back{
+    padding: 5px 5%;
+}
+
+.formulario{
+    padding: 5%;
+}
+
+#photo{
+    width: 72px;
+    height: 72px;
+    position: relative;
+
+  
+}
+
+#photo > img{
+    width: 72px;
+    height: 72px;
+    border-radius:5px;
+    
+}
+
+#photo > input{
+    display: none;
+}
+
+#photo > label {
+    position: absolute;
+    margin: 25px;
+}
+
+input{
+    width: 335px;
+    height: 52px;
+    border-radius: 10px;
+    border: 1px solid #828282;
+    padding: 10px;
+}
+
+#bio{
+    height: 92px;
+}
+
+#Save{
+    width: 82px;
+    height: 38px;
+    background-color: #2F80ED;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (min-width: 750px) {
+
+.logoconimg{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+
+.logoconimg > span{
+    display: block;
+}
+
+#cuadrodesple{
+    width: 190px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    padding: 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    transform: scale(0);
+    transition: 0.4s all;
+
+}
+
+#cuadrodesple > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#cuadrodesple > ul >li > a > span{
+    display: block;
+}
+
+#cuadrodesple > ul >li > a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#cuadrodesple > a > span{
+    display: block;
+}
+
+#cuadrodesple > a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: red;
+}
+
+.formulario{
+    padding: 5%;
+    border: 1px solid #E0E0E0;
+    width: 65%;
+    border-radius: 10px;
+    margin: 0px 0px 0px 3%;
+}
+
+input{
+    width: 416px;
+ 
+}
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    #volver > a{
+        margin: 0px 0px 0px 11%;
+    }
+
+    .formulario{
+        padding: 5%;
+        border: 1px solid #E0E0E0;
+        width: 65%;
+        border-radius: 10px;
+        margin: 0px 0px 0px 15%;
+    }
+}
