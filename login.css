@@ -123,6 +123,10 @@ body{
     color: #828282;
 }
 
+.cuadrologin3 > p > a{
+   text-decoration: none;
+}
+
 .iconos{
     display: flex;
     gap: 15px;
