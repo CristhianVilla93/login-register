@@ -30,7 +30,7 @@
 
             <div class="contrasena">
                 <label for="password"></label>
-                <input type="password" required id="password" placeholder="Password" name="password" />
+                <input type="password"  id="password" placeholder="Password" name="password" />
                 <img src="imagen/lock-fill.svg" alt="">
             </div>
 
