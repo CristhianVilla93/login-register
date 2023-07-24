@@ -62,17 +62,17 @@ if (!isset($_SESSION["usuario"])) {
                 </div>
                 <hr>
                 <div class="datos1">
-                    <p>PHOTO:<img src="<?php echo $_SESSION["usuario"]["ruta_img"] ?>" alt="Perfil"></p>
+                    <p>PHOTO <img src="<?php echo $_SESSION["usuario"]["ruta_img"] ?>" alt="Perfil"></p>
                     <hr>
-                    <p>NAME:<span><?php echo $_SESSION["usuario"]["name"] ?></span></p>
+                    <p>NAME <span><?php echo $_SESSION["usuario"]["name"] ?></span></p>
                     <hr>
-                    <p>BIO:<span><?php echo $_SESSION["usuario"]["bio"] ?></span></p>
+                    <p>BIO <span><?php echo $_SESSION["usuario"]["bio"] ?></span></p>
                     <hr>
-                    <p>PHONE:<span><?php echo $_SESSION["usuario"]["phone"] ?></span></p>
+                    <p>PHONE <span><?php echo $_SESSION["usuario"]["phone"] ?></span></p>
                     <hr>
-                    <p>EMAIL:<span><?php echo $_SESSION["usuario"]["email"] ?></span></p>
+                    <p>EMAIL <span><?php echo $_SESSION["usuario"]["email"] ?></span></p>
                     <hr>
-                    <p>PASSWORD: <span>************</span></p>
+                    <p>PASSWORD <span>************</span></p>
                     <hr>
                 </div>
 

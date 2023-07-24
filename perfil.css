@@ -5,6 +5,19 @@ body{
     flex-direction: column;
 }
 
+.cuadro1 > h1{
+    font-size:24px ;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+.cuadro1 > p{
+    font-size:14px ;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
 
 .cuadro2{
     width: 375px;
@@ -13,6 +26,20 @@ body{
     flex-direction: column;
     /* border: 1px solid #BDBDBD;
     border-radius: 15px; */
+}
+
+.titu1 > h1{
+    font-size:24px ;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+.titu1 > p{
+    font-size:13px ;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #828282;
 }
 
 nav{
@@ -77,7 +104,14 @@ nav{
     text-align: center;
     border-radius: 10px;
     padding: 8px;
+   
+}
+
+.titu2 > a{
     color: #828282;
+    font-size:16px ;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
 }
 
 .datos1 > p{
@@ -87,8 +121,21 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 5%;
+    color: #828282;
+    font-size:13px ;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
     
 
+}
+
+.datos1 > p > span{
+   
+    color: #333333;
+    font-size:16px ;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    
 }
 
 .datos1 > p >img{
@@ -98,10 +145,23 @@ nav{
 }
 
 @media screen and (min-width: 750px) {
+
     
 
     .contenemayor{
         width: 500px;
+    }
+
+    .cuadro1 > h1{
+        font-size:36px ;
+        font-weight: 400;
+        
+    }
+    
+    .cuadro1 > p{
+        font-size:18px ;
+        font-weight: 300;
+       
     }
 
     .cuadro2{
@@ -137,6 +197,14 @@ nav{
         color: red;
     }
 
+    .datos1 > p > span{
+   
+        color: #333333;
+        font-size:18px ;
+        font-weight: 500;
+        font-family: 'Inter', sans-serif;
+        
+    }
 
 
 
