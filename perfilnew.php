@@ -1,5 +1,5 @@
 <?php
-// inicio el uso de las variables de sesion
+
 session_start();
 
 $datos = $_SESSION["datos_usuario"];
