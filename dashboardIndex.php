@@ -15,11 +15,16 @@ if (!isset($_SESSION["usuario"])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboardIndex.css">
     <title>Dashboard</title>
 </head>
 <body>
-    <h1>!Bienvenido, <?= $_SESSION["usuario"]["email"] ?>!</h1>
-    <h2>Usuario creado con exito</h2>
-    <a href="logout.php">Log out</a>
+    <section class="saludo">
+      
+        <img src="imagen/excelente.jpg" alt="excelente">
+        <h1>Hola, <?= $_SESSION["usuario"]["name"] ?> tu cuenta se ha creado con exito <br> retrocede para llenar tu perfil</h1>
+        <a href="logout.php">Log out</a>
+
+    </section>
 </body>
 </html>
