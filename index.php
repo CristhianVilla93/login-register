@@ -17,7 +17,7 @@
             <p><img src="imagen/devchallenges.svg" alt=""></p>
 
             <h1>Join thousands of learners from <br>
-                around the wordld
+                around the world
             </h1>
 
             <p>Master web developement by making real-life <br>

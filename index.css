@@ -17,11 +17,23 @@ body{
     display: flex;
     padding: 5%;
     flex-direction: column;
-  
     border-radius: 15px;
 
 }
 
+.cuadro1 > h1{
+    font-size:18px ;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+}
+
+.cuadro1 >:last-child{
+    font-size:15px ;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+}
 .cuadro1{
     display: flex;
     flex-direction: column;
@@ -44,6 +56,9 @@ body{
 .correo > input {
     width: 340px;
     height: 48px;
+    font-size:16px ;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
     padding: 0px 0px 0px 35px;
     border-radius: 10px;
     border: 1px solid #BDBDBD;
@@ -68,6 +83,8 @@ body{
 .contrasena > input {
     width: 340px;
     height: 48px;
+    font-size:16px ;
+    font-weight: 400;
     padding: 0px 0px 0px 35px;
     border-radius: 10px;
     border: 1px solid #BDBDBD;
@@ -91,6 +108,7 @@ body{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 16px;
+    font-family: 'Inter', sans-serif;
     border-radius: 10px;
     border: none;
 }
@@ -101,6 +119,14 @@ body{
     gap: 25px;
     align-items: center;
 }
+
+.cuadro3 > p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #828282;
+}
+
 
 .iconos{
     display: flex;
