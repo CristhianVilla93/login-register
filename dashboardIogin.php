@@ -49,8 +49,7 @@ if (!isset($_SESSION["usuario"])) {
         </nav>
         <div id="back">
             <div id="volver">
-                <a href="perfil.php">
-                    < Back</a>
+                <a href="perfil.php"><img src="imagen/flecha.svg"> Back</a>
             </div>
 
         </div>
@@ -69,23 +68,23 @@ if (!isset($_SESSION["usuario"])) {
                 </div>
 
                 <br>
-                <label for="name">Name</label> <br>
+                <label class="labe" for="name">Name</label> <br>
                 <input type="text" name="nombre" id="name" placeholder="Enter your name..">
                 <br>
                 <br>
-                <label for="bio">Bio</label><br>
+                <label class="labe" for="bio">Bio</label><br>
                 <input type="text" name="biografia" id="bio" placeholder="Enter your bio..">
                 <br>
                 <br>
-                <label for="phone">Phone</label><br>
+                <label class="labe" for="phone">Phone</label><br>
                 <input type="number" name="telefono" id="phone" placeholder="Enter your phone..">
                 <br>
                 <br>
-                <label for="email">Email</label><br>
+                <label class="labe" for="email">Email</label><br>
                 <input type="email" name="correo" required id="email" placeholder="Enter your email..">
                 <br>
                 <br>
-                <label for="password">Pasword</label><br>
+                <label class="labe" for="password">Pasword</label><br>
                 <input type="password" name="contrasena" required id="password" placeholder="Enter your password..">
                 <br>
                 <br>

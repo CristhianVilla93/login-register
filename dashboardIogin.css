@@ -84,7 +84,12 @@ hr{
 }
 
 #volver > a{
+    display: flex;
+    align-items: center;
     color:#2D9CDB ;
+    font-size:18px ;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
 }
 
 #fotos{
@@ -105,6 +110,20 @@ hr{
 
 .formulario{
     padding: 5%;
+}
+
+.formulario > h1 {
+    font-size:24px ;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+.formulario > p:nth-child(2n) , p {
+    font-size:13px ;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #828282;
 }
 
 #photo{
@@ -131,10 +150,20 @@ hr{
     margin: 25px;
 }
 
+.labe{
+    font-size:13px ;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #4F4F4F;
+}
+
 input{
     width: 335px;
     height: 52px;
     border-radius: 10px;
+    font-size:13px ;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
     border: 1px solid #828282;
     padding: 10px;
 }
