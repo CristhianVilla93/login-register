@@ -108,3 +108,12 @@ body{
 }
 
 
+@media screen and (min-width: 750px) {
+
+    .contenedorlogin{
+        border: 1px solid #BDBDBD;
+        padding: 4%;
+     
+    
+    }
+}
